@@ -1,0 +1,98 @@
+#the_team {
+  /* height: 100vh; */
+  height: 845px;
+  width: 100%;
+  display: flex;
+  background-color: #FBFBFB;
+}
+
+.the__team-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.the__team-title {
+  color: #252525;
+  font-family: 'Oswald', 'Open Sans';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 3.072px;
+}
+
+.the__team-title-block>span {
+  display: block;
+  background: #252525;
+  width: 45px;
+  height: 2px;
+  margin-top: 7px;
+}
+
+.the__team-person-cards {
+  display: flex;
+  margin-top: 65px;
+  gap: 28px;
+}
+
+.person-card {
+  width: 370px;
+  height: 398px;
+  position: relative;
+}
+
+.person-card-title-placeholder {
+  width: 370px;
+  height: 55px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+
+.active-title-placeholder {
+
+  height: 155.24px;
+  background-color: rgba(255, 255, 255, 0.9244);
+}
+
+.active-title-placeholder .person-card-title {
+  height: 155.24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.active-title-placeholder span {
+  display: block;
+  width: 45px;
+  height: 2px;
+  background: #252525;
+}
+
+.person-card-title {
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.person-card-title h3 {
+  color: #252525;
+  font-family: 'Oswald', 'Open Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 1.152px;
+}
+
+.person-card-description {
+  color: #777;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 1.008px;
+}
